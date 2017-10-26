@@ -1,0 +1,89 @@
+table.stundenplan {
+  width: 10%;
+  background: black;
+  border: 1px solid #39342b;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: auto;
+}
+
+th {
+  border: 2px solid #39342b;
+  font: normal 15px "Helvetica Neue" , Times serif;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  height: 25px;
+}
+
+td {
+  border: 2px solid #39342b;
+  font: normal 15px "Helvetica Neue" , Times serif;
+  color: white;
+  padding: 0;
+  text-align: center;
+  height: 40px;
+  color: white;
+}
+
+td.Nothing {
+  border: 0px solid ;
+}
+
+td.German {
+  background: Blue;
+}
+
+td.Mathematik{
+  background: green;
+}
+
+td.english {
+  background: #00c6ff
+}
+
+td a {
+  display: block;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+td:hover {
+  background-color: orange;
+}
+
+body {
+  background-image: url("Background.png");
+}
+div {
+  background-color: #39342b;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: white;
+    text-decoration: none;
+  }
