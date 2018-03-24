@@ -1,37 +1,27 @@
-nav {
-  background-color: #39342b;
-  margin: auto;
-  padding-bottom: 0px;
-}
-
-nav ul {
-  margin: auto;
-}
-
-ul{
-  	margin: auto;
-	list-style: none;
-	text-align: center
-}
-
-nav li {
-	display: inline-block;
-	text-align: center;
-	width: 100px;
-	border: 1px solid #39342b;
-	padding: 100px;
-	padding-bottom: 100px;
-}
-
 body {
-	background-image: url(Background.png);
-	font: bold 15px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		color: white;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-li:hover {
-	background-color: #E69318
+.menu {
+  width: 100%;
+  background: black;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-img {
-	width: 300px;
+
+.menu li {
+  display: inline-block;
+  width: 20%;
+  color: white;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menubtn {
 }
