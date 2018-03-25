@@ -1,5 +1,4 @@
 table.stundenplan {
-  width: 10%;
   background: black;
   border: 1px solid #39342b;
   border-collapse: collapse;
@@ -22,7 +21,7 @@ td {
   color: white;
   padding: 0;
   text-align: center;
-  height: 40px;
+  height: 50px;
 }
 
 td.Nothing {
@@ -41,29 +40,6 @@ td.english {
   background: #00c6ff
 }
 
-td a {
-  display: block;
-  padding-top: 10px;
-  width: 100%;
-  height: 100%;
-}
-
-td:hover {
-  background-color: orange;
-}
-
-body {
-  background-image: url("Background.png");
-}
-div {
-  background-color: #39342b;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: auto;
-}
-
 a:link {
     color: white;
     text-decoration: none;
@@ -80,9 +56,3 @@ a:hover {
     color: white;
     text-decoration: none;
 }
-
-
-a:active {
-    color: white;
-    text-decoration: none;
-  }
