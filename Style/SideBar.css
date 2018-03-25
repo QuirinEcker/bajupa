@@ -1,0 +1,26 @@
+#SidebarContent {
+	margin: 0; padding: 0;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	list-style: none;
+}
+
+#SideBar {
+	position: absolute;
+	margin: 0; padding: 0;
+	height: 100%;
+	background-color: black;
+	width: 25%;
+	list-style: none;
+	padding-bottom: 100%;
+}
+
+#SideBar li {
+	transition: background-color 0.5s;
+}
+
+#SidebarContent li:hover {
+	margin: 0; padding: 0;
+	background-color: orange;
+}

@@ -1,0 +1,23 @@
+#MainContent {
+	margin: 0; padding: 0;
+	background-image: url(../images/Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	float: right;
+	width: 75%;
+	height: 1000px;
+	overflow: scroll
+}
+
+.InfoBox {
+	z-index: 0;
+	width: 80%;
+	margin-right: 10%;
+	margin-left:  10%;
+	margin-top: 50px;
+	height: 400px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 20px;
+}

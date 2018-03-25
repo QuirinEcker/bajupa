@@ -1,19 +1,20 @@
 *{
-	padding: 0;
-	margin: 0;
+	margin: 0; padding: 0;
 	font-family: arial;
 }
 
 body {
   padding: 0;
   margin: 0;
+	overflow-y: hidden;
 }
 
 #logo {
 	width: 25%;
-	background-image: url(images/simplistic.png);
+	background-image: url(../images/simplistic.png);
 	background-size: 100%;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .menu {
@@ -59,22 +60,6 @@ img {
 	width: 100%;
 }
 
-
-#DropDownTable {
-	position: absolute;
-	text-align: center;
-	line-height: 50px;
-	margin: 0;
-	padding: 0;
-	height: 0;
-	background-color: #473636;
-	list-style: none;
-	width: 15%;
-	margin-left: 25%;
-	transition: all 0.5s;
-	overflow: hidden;
-}
-
 .tables {
 	margin: 0; padding: 0;
 	transition: all 1s;
@@ -90,7 +75,24 @@ img {
 	text-decoration: none;
 }
 
+#DropDownTable {
+	z-index: 50;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	background-color: #473636;
+	list-style: none;
+	width: 15%;
+	margin-left: 25%;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+
 #DropDownProjects {
+	z-index: 50;
 	position: absolute;
 	margin: 0; padding: 0;
 	text-align: center;
@@ -106,6 +108,7 @@ img {
 
 
 #DropDownAbout {
+	z-index: 50;
 	position: absolute;
 	margin: 0; padding: 0;
 	text-align: center;
@@ -120,6 +123,7 @@ img {
 }
 
 #DropDownLinks {
+	z-index: 50;
 	position: absolute;
 	margin: 0; padding: 0;
 	text-align: center;
