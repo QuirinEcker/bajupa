@@ -19,8 +19,9 @@ body {
 
 .menu {
 	height: 100px;
-	background: black;
+	background: #FF0000;
 	list-style-type: none;
+	box-shadow: 100px 100px 100px grey;
 	padding: 0;
 	margin: 0;
 }
@@ -83,7 +84,7 @@ img {
 	margin: 0;
 	padding: 0;
 	height: 0;
-	background-color: #473636;
+	background-color: #DBD5D5;
 	list-style: none;
 	width: 15%;
 	margin-left: 25%;
@@ -98,7 +99,7 @@ img {
 	text-align: center;
 	line-height: 50px;
 	height: 0;
-	background-color: #473636;
+	background-color: #DBD5D5;
 	overflow: hidden;
 	list-style: none;
 	width: 15%;
@@ -114,7 +115,7 @@ img {
 	text-align: center;
 	line-height: 50px;
 	height: 0;
-	background-color: #473636;
+	background-color: #DBD5D5;
 	overflow: hidden;
 	list-style: none;
 	width: 15%;
@@ -129,7 +130,7 @@ img {
 	text-align: center;
 	line-height: 50px;
 	height: 0;
-	background-color: #473636;
+	background-color: #DBD5D5;
 	overflow: hidden;
 	list-style: none;
 	width: 15%;
