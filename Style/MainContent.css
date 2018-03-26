@@ -5,16 +5,15 @@
 	background-size: cover;
 	background-attachment: fixed;
 	float: right;
-	width: 75%;
+	width: 100%;
 	height: 1000px;
 	overflow: scroll
 }
 
 .InfoBox {
 	z-index: 0;
-	width: 80%;
-	margin-right: 10%;
-	margin-left:  10%;
+	width: 55%;
+	margin-left:  35%;
 	margin-top: 50px;
 	height: 400px;
 	background-color: white;
@@ -24,11 +23,11 @@
 
 #timetable {
 	z-index: 0;
-	width: 80%;
-	margin-right: 10%;
-	margin-left:  10%;
+	width: 55%;
+	margin-left:  35%;
 	margin-top: 50px;
-	background-color: black;
+	height: 400px;
+	background-color: white;
 	opacity: 0.8;
 	border-radius: 20px;
 }
