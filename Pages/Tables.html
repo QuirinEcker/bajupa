@@ -10,6 +10,7 @@
 	</head>
 	<body>
 		<script type="text/javascript" src="../Scripts/DropDownMenus.js"></script>
+		<script type="text/javascript" src="../Scripts/CurrentSelected.js"></script>
 		
 		<div class="MainMenu">	
 			<ul class="menu">
@@ -47,10 +48,10 @@
 		
 		<div id="SideBar">
 			<ul id="SidebarContent">
-				<a href="TableCalender.html"><li id="currentSelected">Kalender</li></a>
-				<a href="TablePeter.html"><li>Peter : Stundenplan</li></a>
-				<a href="TableAaron.html"><li>Aaron : Stundenplan</li></a>
-				<a href="TableQuirin.html"><li>Quirin : Stundenplan</li></a>
+				<a onclick="currentSelected(0)" class="currentIdSelection"><li>Kalender</li></a>
+				<a onclick="currentSelected(1)" class="currentIdSelection"><li>Peter : Stundenplan</li></a>
+				<a onclick="currentSelected(2)" class="currentIdSelection"><li>Aaron : Stundenplan</li></a>
+				<a onclick="currentSelected(3)" class="currentIdSelection"><li>Quirin : Stundenplan</li></a>
 			</ul>
 		</div>
 		
