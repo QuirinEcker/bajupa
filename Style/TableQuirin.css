@@ -1,9 +1,10 @@
-table.stundenplan {
-  background: black;
-  border: 1px solid #39342b;
-  border-collapse: collapse;
-  table-layout: fixed;
-  margin: auto;
+.stundenplan {
+	background: black;
+	height: 600px;
+	border: 1px solid #39342b;
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin: auto;
 }
 
 th {

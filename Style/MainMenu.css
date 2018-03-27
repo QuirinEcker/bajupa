@@ -19,7 +19,7 @@ body {
 
 .menu {
 	height: 100px;
-	background: #FF0000;
+	background: red;
 	list-style-type: none;
 	box-shadow: 100px 100px 100px grey;
 	padding: 0;

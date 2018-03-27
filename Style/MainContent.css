@@ -26,11 +26,13 @@
 	width: 55%;
 	margin-left:  35%;
 	margin-top: 50px;
-	height: 400px;
-	background-color: white;
+	height: 600px;
+	background-color: black;
 	opacity: 0.8;
 	border-radius: 20px;
+	transition: all 1s;
 }
+
 #QuirinStundenPlan {
 	display: none;
 }

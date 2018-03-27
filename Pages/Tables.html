@@ -11,8 +11,9 @@
 	<body>
 		<script type="text/javascript" src="../Scripts/DropDownMenus.js"></script>
 		<script type="text/javascript" src="../Scripts/Table.js"></script>
-		
-		<div class="MainMenu">	
+		<script type="text/javascript" src="../Scripts/hideSidebar.js"></script>
+
+		<div class="MainMenu">
 			<ul class="menu">
 				<a href="../Index.html"><li id="logo"></li></a>
 				<a href="TableCalender.html"><li id="tables" onMouseOver="dropDownTableDisplay()" onMouseOut="dropDownTableNone()">Tables</li></a>
@@ -45,7 +46,7 @@
 				<a class="nodec" href="#"><li class="tables">3</li></a>
 			</ul>
 		</div>
-		
+
 		<div id="SideBar">
 			<ul id="SidebarContent">
 				<a onclick="currentSelected(0)" class="currentIdSelection"><li>Kalender</li></a>
@@ -53,9 +54,10 @@
 				<a onclick="currentSelected(2)" class="currentIdSelection"><li>Aaron : Stundenplan</li></a>
 				<a onclick="currentSelected(3)" class="currentIdSelection"><li>Quirin : Stundenplan</li></a>
 			</ul>
-			<div id="hideSidebar" onClick="hideSidebar()"></div>
+			<div id="buttonHide" onMouseOver="showButton()" onmouseout="hideButton()"></div>
+			<div id="hideSidebar" onclick="hideSidebar()" onMouseOver="showButton()" onmouseout="hideButton()"></div>
 		</div>
-		
+
 		<div id="MainContent">
 			<div id="CalenderStundenPlan" class="timetable">
 			</div>
@@ -237,5 +239,3 @@
 		</div>
 	</body>
 </html>
-		
-		

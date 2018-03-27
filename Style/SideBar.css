@@ -4,16 +4,18 @@
 	text-align: center;
 	line-height: 100px;
 	list-style: none;
+	overflow: hidden;
 }
 
 #SideBar {
 	position: absolute;
 	margin: 0; padding: 0;
 	height: 100%;
-	background-color: #45FF00;
+	background-color: #78f940;
 	width: 25%;
 	list-style: none;
 	padding-bottom: 100%;
+	transition: width 1s;
 }
 
 #SideBar li {
@@ -23,4 +25,24 @@
 #SidebarContent li:hover {
 	margin: 0; padding: 0;
 	background-color: orange;
+}
+
+#hideSidebar {
+	position: absolute;
+	background-color: white;
+	left: 100%;
+	width: 0%;
+	height: 5%;
+	top: 10%;
+	border-radius: 0 200px 200px 0;
+	transition: width 0.2s;
+}
+
+#buttonHide {
+	position: absolute;
+	opacity: 0;
+	left: 100%;
+	width: 20px;
+	height: 100%;
+	bottom: 40%;
 }
