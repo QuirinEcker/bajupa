@@ -21,7 +21,7 @@
 	border-radius: 20px;
 }
 
-#timetable {
+.timetable {
 	z-index: 0;
 	width: 55%;
 	margin-left:  35%;
@@ -30,4 +30,19 @@
 	background-color: white;
 	opacity: 0.8;
 	border-radius: 20px;
+}
+#QuirinStundenPlan {
+	display: none;
+}
+
+#PeterStundenPlan {
+	display: none;
+}
+
+#AaronStundenPlan {
+	display: none;
+}
+
+#CalenderStundenPlan {
+	display: none;
 }
