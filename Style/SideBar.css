@@ -30,10 +30,10 @@
 #hideSidebar {
 	position: absolute;
 	background-color: white;
+	top: 10%;
 	left: 100%;
 	width: 0%;
 	height: 5%;
-	top: 10%;
 	border-radius: 0 200px 200px 0;
 	transition: width 0.2s;
 }

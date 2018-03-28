@@ -10,6 +10,7 @@ body {
 }
 
 #logo {
+	margin: 0; padding: 0;
 	width: 25%;
 	background-image: url(../images/simplistic.png);
 	background-size: 100%;
