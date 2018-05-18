@@ -7,37 +7,44 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow-y: hidden;
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 #logo {
 	margin: 0; padding: 0;
 	width: 25%;
 	background-image: url(../images/simplistic.png);
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
+.MainMenu {
+	position: fixed;
+	height: 10%; width: 100%;
+	background-color: red;
+}
+
 .menu {
-	height: 100px;
-	background: red;
+	height: 100%;
 	list-style-type: none;
-	box-shadow: 100px 100px 100px grey;
-	padding: 0;
-	margin: 0;
+	padding: 0; margin: 0;
 }
 
 .menu li {
+	cursor: pointer;
+	height: 100%;
 	font-weight: 100;
 	padding: 0;
 	margin: 0;
-	line-height: 320%;
+	line-height: 200%;
 	text-align: center;
 	display: block;
 	font-size: 30px;
 	width: 15%;
 	color: white;
-	height: 100%;
 	overflow: hidden;
 	transition: all 1s;
 	float: left;
@@ -78,19 +85,14 @@ img {
 }
 
 #DropDownTable {
-	z-index: 50;
-	position: absolute;
-	text-align: center;
-	line-height: 50px;
-	margin: 0;
-	padding: 0;
+	z-index: 2;
+	left: 25%;
 	height: 0;
-	background-color: #DBD5D5;
+	position: relative;
+	background-color: white;
 	list-style: none;
 	width: 15%;
-	margin-left: 25%;
 	transition: all 0.5s;
-	overflow: hidden;
 }
 
 #DropDownProjects {
@@ -104,7 +106,7 @@ img {
 	overflow: hidden;
 	list-style: none;
 	width: 15%;
-	margin-left: 40%;
+	left: 40%;
 	transition: all 0.5s;
 }
 
