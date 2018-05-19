@@ -10,7 +10,6 @@
 	float: right;
 	width: 100%;
 	height: 90%;
-	overflow-y: scroll; overflow-x: hidden
 }
 
 .InfoBox {
@@ -21,7 +20,6 @@
 	height: 400px;
 	background-color: white;
 	opacity: 0.8;
-	border-radius: 20px;
 }
 
 .timetable {
@@ -32,7 +30,6 @@
 	height: 600px;
 	background-color: black;
 	opacity: 0.8;
-	border-radius: 20px;
 	transition: all 1s;
 }
 

@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<title>Bajupa</title>
 		<link rel="stylesheet" href="Style/MainMenu.css">
-		<link rel="stylesheet" href="Style/SideBar.css">
 		<link rel="stylesheet" href="Style/MainContent.css">
+		<link rel="stylesheet" href="Style/contentOnly.css">
 	</head>
 	<body>
 		<script type="text/javascript" src="Scripts/DropDownMenus.js"></script>
@@ -45,22 +45,23 @@
 				<a class="nodec" href="#"><li class="tables">3</li></a>
 			</ul>
 		</div>
-
-		<div id="SideBar">
-			<ul id="SidebarContent">
-				<li>Alles auf einen Blick</li>
-				<li>BGW Inhalte</li>
-				<li>Gihub Inhalte</li>
-				<li>Sonstige Inhalte</li>
-			</ul>
-		</div>
 		
 		<div id="MainContent">
-			<div class="InfoBox"></div>
-			<div class="InfoBox"></div>
-			<div class="InfoBox"></div>
-			<iframe class="InfoBox" src="www.google.com" frameborder="0"></iframe>
-			<div class="InfoBox"></div>
+			<div class="contentOnly">
+				<form action="http://www.google.com/search" method="get">
+					<input name="q" id="suche" type="text" placeholder="search">
+				</form>
+			</div>
+			<div class="placeholder">
+				<div class="placeholderContent">
+					<h1>What's New Here</h1>
+					<ul>
+						<li>SearchBar in the Homepage</li>
+						<li>Black Layout</li>
+						<li>more optimizing on percantage layout</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

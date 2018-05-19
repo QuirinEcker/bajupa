@@ -28,13 +28,14 @@ body {
 	z-index: 50;
 	position: fixed;
 	height: 10%; width: 100%;
-	background-color: red;
+	background-color: #332D2D;
 }
 
 .menu {
 	height: 100%;
 	list-style-type: none;
 	padding: 0; margin: 0;
+	opacity: 0.95;
 }
 
 .menu li {

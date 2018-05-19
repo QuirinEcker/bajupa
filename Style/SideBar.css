@@ -8,6 +8,7 @@
 	line-height: 100px;
 	list-style: none;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 #SideBar {
@@ -16,20 +17,21 @@
 	top: 10%;
 	margin: 0; padding: 0;
 	height: 90%;
-	background-color: #78f940;
+	background-color: #332D2D;
 	width: 25%;
 	list-style: none;
 	padding-bottom: 100%;
 	transition: width 1s;
+	opacity: 0.95;
 }
 
 #SideBar li {
-	transition: background-color 0.5s;
+	transition: color 0.5s;
 }
 
 #SidebarContent li:hover {
 	margin: 0; padding: 0;
-	background-color: orange;
+	color: red;
 }
 
 #hideSidebar {

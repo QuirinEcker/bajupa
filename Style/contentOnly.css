@@ -1,0 +1,38 @@
+.contentOnly {
+	position: fixed;
+	height: 50%;
+	width: 100%;
+	background-color: #FFA000;
+}
+
+.placeholder {
+	position: fixed;
+	background-color: #342D2D;
+	height: 50%;
+	top: 50%;
+	width: 100%;
+}
+
+.placeholderContent {
+	position: fixed;
+	width: 50%;
+	left: 25%;
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+}
+
+.placeholderContent ul li {
+	font-size: 30px;
+}
+
+#suche {
+	position: fixed;
+	font-size: 200%;
+	width: 50%;
+	text-align: center;
+	left: 25%;
+	height: 10%;
+	top: 25%;
+}
+
