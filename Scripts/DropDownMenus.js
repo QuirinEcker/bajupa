@@ -1,7 +1,7 @@
 function dropDownTableDisplay() {
 	let content = document.getElementById("DropDownTable");
 	
-	content.style.height = "150px"
+	content.style.height = "150px";
 }
 
 function dropDownTableNone() {

@@ -1,6 +1,9 @@
 #SidebarContent {
+	position: fixed;
 	margin: 0; padding: 0;
 	color: white;
+	width: 25%;
+	height: 100%;
 	text-align: center;
 	line-height: 100px;
 	list-style: none;
@@ -30,12 +33,13 @@
 }
 
 #hideSidebar {
-	position: absolute;
+	cursor: pointer;
+	position: relative;
 	background-color: white;
-	top: 10%;
+	top: 40%;
 	left: 100%;
-	width: 0%;
-	height: 5%;
+	width: 0;
+	height: 20%;
 	border-radius: 0 200px 200px 0;
 	transition: width 0.2s;
 }
@@ -46,5 +50,5 @@
 	left: 100%;
 	width: 20px;
 	height: 100%;
-	bottom: 40%;
+	bottom: 50%;
 }
