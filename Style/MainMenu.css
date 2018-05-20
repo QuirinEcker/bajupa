@@ -39,7 +39,6 @@ body {
 }
 
 .menu li {
-	cursor: pointer;
 	height: 100%;
 	font-weight: 100;
 	padding: 0;
@@ -64,7 +63,16 @@ body {
 .menu li:hover {
 	margin: 0;
 	padding: 0;
-	background-color: orange;
+}
+
+.hoverUnderline {
+	position: relative;
+	top: 90%;
+	background: #DBD5D5;
+	height: 5%;
+	width: 100%;
+	transform: scale(0, 1);
+	transition: all 0.5s;
 }
 
 img {

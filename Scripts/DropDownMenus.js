@@ -1,47 +1,63 @@
-function dropDownTableDisplay() {
+function dropDownTableDisplay(number) {
 	let content = document.getElementById("DropDownTable");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(1, 1)";
 	content.style.height = "150px";
 }
 
-function dropDownTableNone() {
+function dropDownTableNone(number) {
 	let content = document.getElementById("DropDownTable");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(0, 1)";
 	content.style.height = "0px";
 }
 
-function dropDownProjectsDisplay() {
+function dropDownProjectsDisplay(number) {
 	let content = document.getElementById("DropDownProjects");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(1, 1)";
 	content.style.height = "150px";
 }
 
-function dropDownProjectsNone() {
+function dropDownProjectsNone(number) {
 	let content = document.getElementById("DropDownProjects");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(0, 1)";
 	content.style.height = "0px";
 }
 
-function dropDownAboutDisplay() {
+function dropDownAboutDisplay(number) {
 	let content = document.getElementById("DropDownAbout");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(1, 1)";
 	content.style.height = "150px";
 }
 
-function dropDownAboutNone() {
+function dropDownAboutNone(number) {
 	let content = document.getElementById("DropDownAbout");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(0, 1)";
 	content.style.height = "0px";
 }
 
-function dropDownLinksDisplay(){
+function dropDownLinksDisplay(number){
 	let content = document.getElementById("DropDownLinks");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(1, 1)";
 	content.style.height = "150px";
 }
 
-function dropDownLinksNone() {
+function dropDownLinksNone(number) {
 	let content = document.getElementById("DropDownLinks");
+	let hover = document.getElementsByClassName("hoverUnderline");
 	
+	hover[number].style.transform = "scale(0, 1)";
 	content.style.height = "0px";
 }

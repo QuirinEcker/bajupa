@@ -10,35 +10,56 @@
 	<body>
 		<script type="text/javascript" src="Scripts/DropDownMenus.js"></script>
 		<script type="text/javascript" src="Scripts/Table.js"></script>
+		<script type="text/javascript" src="Scripts/menuHover.js"></script>
 		
 		<div class="MainMenu">	
 			<ul class="menu">
-				<li id="logo"></li>
-				<li id="tables" onMouseOver="dropDownTableDisplay()" onMouseOut="dropDownTableNone()"><a href="Pages/Tables.html">Tables</a></li>
-				<li id="projects" onMouseOver="dropDownProjectsDisplay()" onMouseOut="dropDownProjectsNone()">Projects</li>
-				<li id="About" onMouseOver="dropDownAboutDisplay()" onMouseOut="dropDownAboutNone()">About</li>
-				<li id="Links" onMouseOver="dropDownLinksDisplay()" onMouseOut="dropDownLinksNone()">Links</li>
+				<a href="../Index.html"><li id="logo"></li></a>
+				<a href="Pages/Tables.html">
+					<li id="tables" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
+						<div onMouseOver="dropDownProjectsDisplay(0)" onMouseOut="dropDownProjectsNone(0)" class="hoverUnderline"></div>
+						<span>Tables</span>
+					</li>
+				</a>
+				<a href="">
+					<li id="projects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
+						<div onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)" class="hoverUnderline"></div>
+						<span>Projects</span>
+					</li>
+				</a>
+				<a href="">
+					<li id="About" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
+						<div onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)" class="hoverUnderline"></div>
+						<span>About</span>
+					</li>
+				</a>
+				<a href="">
+					<li id="Links" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
+						<div onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)" class="hoverUnderline"></div>
+						<span>Links</span>
+					</li>
+				</a>
 			</ul>
 
-			<ul id="DropDownTable" onMouseOver="dropDownTableDisplay()" onMouseOut="dropDownTableNone()">
+			<ul id="DropDownTable" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
 				<a class="nodec" href="Pages/Tables.html" onclick="getClassNumber(1)"><li class="tables">Peter</li></a>
 				<a class="nodec" href="Pages/Tables.html" onclick="getClassNumber(2)"><li class="tables">Aaron</li></a>
 				<a class="nodec" href="Pages/Tables.html" onclick="getClassNumber(3)"><li class="tables">Quirin</li></a>
 			</ul>
 
-			<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay()" onMouseOut="dropDownProjectsNone()">
+			<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
 				<a class="nodec" href="#"><li class="tables">1</li></a>
 				<a class="nodec" href="#"><li class="tables">2</li></a>
 				<a class="nodec" href="#"><li class="tables">3</li></a>
 			</ul>
 
-			<ul id="DropDownAbout" onMouseOver="dropDownAboutDisplay()" onMouseOut="dropDownAboutNone()">
+			<ul id="DropDownAbout" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
 				<a class="nodec" href="#"><li class="tables">1</li></a>
 				<a class="nodec" href="#"><li class="tables">2</li></a>
 				<a class="nodec" href="#"><li class="tables">3</li></a>
 			</ul>
 
-			<ul id="DropDownLinks" onMouseOver="dropDownLinksDisplay()" onMouseOut="dropDownLinksNone()">
+			<ul id="DropDownLinks" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
 				<a class="nodec" href="#"><li class="tables">1</li></a>
 				<a class="nodec" href="#"><li class="tables">2</li></a>
 				<a class="nodec" href="#"><li class="tables">3</li></a>
