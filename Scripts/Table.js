@@ -1,7 +1,7 @@
 function currentSelected(numberofClass) {
 	let button = document.getElementsByClassName("currentIdSelection");
 	
-	button[numberofClass].style.color = "red";
+	button[numberofClass].style.color = "grey";
 	
 	if(numberofClass === 0) {
 		button[1].style.color = "white";

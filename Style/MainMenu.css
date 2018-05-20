@@ -18,9 +18,9 @@ body {
 #logo {
 	margin: 0; padding: 0;
 	width: 25%;
-	background-image: url(../images/simplistic.png);
-	background-size: cover;
+	background-image: url(../images/bajupaLogo.png);
 	background-position: center;
+	background-size: 50%;
 	background-repeat: no-repeat;
 }
 

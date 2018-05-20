@@ -31,7 +31,7 @@
 
 #SidebarContent li:hover {
 	margin: 0; padding: 0;
-	color: red;
+	color: grey;
 }
 
 #hideSidebar {

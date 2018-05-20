@@ -1,23 +1,21 @@
 .contentOnly {
-	position: fixed;
-	height: 50%;
+	height: 500px;
 	width: 100%;
-	background-color: #FFA000;
+	background-image: url(../images/searchWallpaper.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .placeholder {
-	position: fixed;
 	background-color: #342D2D;
-	height: 50%;
-	top: 50%;
 	width: 100%;
 }
 
 .placeholderContent {
-	position: fixed;
 	width: 50%;
-	left: 25%;
-	padding-top: 100px;
+	margin: auto;
+	padding: 100px;
 	text-align: center;
 	color: white;
 }
@@ -26,8 +24,29 @@
 	font-size: 30px;
 }
 
+.placeholder1 {
+	background-color: #51B922;
+	width: 100%;
+}
+
+.placeholderContent1 {
+	width: 50%;
+	margin: auto;
+	padding: 100px;
+	text-align: center;
+	color: white;
+}
+
+.placeholderContent1 ul li {
+	font-size: 30px;
+}
+
 #suche {
-	position: fixed;
+	background-image: url(../images/searchIcon.png);
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: left;
+	position: absolute;
 	font-size: 200%;
 	width: 50%;
 	text-align: center;
@@ -36,3 +55,10 @@
 	top: 25%;
 }
 
+/*.homeScreenMenu {
+	float: left;
+	margin: 10px;
+	width: 100px; height: 100px;
+	background-color: black;
+}
+*/
