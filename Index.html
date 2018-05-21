@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="Style/MainMenu.css">
 		<link rel="stylesheet" href="Style/MainContent.css">
 		<link rel="stylesheet" href="Style/contentOnly.css">
+		<link rel="stylesheet" href="Style/TableQuirin.css">
 	</head>
 	<body>
 		<script type="text/javascript" src="Scripts/DropDownMenus.js"></script>
@@ -14,7 +15,7 @@
 		
 		<div class="MainMenu">	
 			<ul class="menu">
-				<a href="../Index.html"><li id="logo"></li></a>
+				<a href="Index.html"><li id="logo"></li></a>
 				<a href="Pages/Tables.html">
 					<li id="tables" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
 						<div onMouseOver="dropDownProjectsDisplay(0)" onMouseOut="dropDownProjectsNone(0)" class="hoverUnderline"></div>
@@ -42,9 +43,9 @@
 			</ul>
 
 			<ul id="DropDownTable" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
-				<a class="nodec" href="Pages/Tables.html" onclick="getClassNumber(1)"><li class="tables">Peter</li></a>
-				<a class="nodec" href="Pages/Tables.html" onclick="getClassNumber(2)"><li class="tables">Aaron</li></a>
-				<a class="nodec" href="Pages/Tables.html" onclick="getClassNumber(3)"><li class="tables">Quirin</li></a>
+				<a class="nodec" href="Pages/Tables.html" onclick="currentSelected(1)"><li class="tables">Peter</li></a>
+				<a class="nodec" href="Pages/Tables.html" onclick="currentSelected(2)"><li class="tables">Aaron</li></a>
+				<a class="nodec" href="Pages/Tables.html" onclick="currentSelected(3)"><li class="tables">Quirin</li></a>
 			</ul>
 
 			<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
