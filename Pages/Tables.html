@@ -8,8 +8,8 @@
 		<link rel="stylesheet" href="../Style/MainContent.css">
 		<link rel="stylesheet" href="../Style/TableQuirin.css">
 	</head>
-	<body>
-		
+	
+	<body onLoad="checkWebStorage()">
 		<script type="text/javascript" src="../Scripts/DropDownMenus.js"></script>
 		<script type="text/javascript" src="../Scripts/Table.js"></script>
 		<script type="text/javascript" src="../Scripts/hideSidebar.js"></script>
@@ -45,9 +45,9 @@
 			</ul>
 
 			<ul id="DropDownTable" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
-				<a class="nodec" href="Tables.html" onclick="currentSelected(1)"><li class="tables">Peter</li></a>
-				<a class="nodec" href="Tables.html" onclick="currentSelected(2)"><li class="tables">Aaron</li></a>
-				<a class="nodec" href="Tables.html" onclick="currentSelected(3)"><li class="tables">Quirin</li></a>
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(1)"><li class="tables">Peter</li></a>
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(2)"><li class="tables">Aaron</li></a>
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(3)"><li class="tables">Quirin</li></a>
 			</ul>
 
 			<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
@@ -70,7 +70,7 @@
 
 		<div id="SideBar">
 			<ul id="SidebarContent">
-				<a onclick="currentSelected(0)" class="currentIdSelection"><li>Kalender</li></a>
+				<a onclick="currentSelected(0)" class="currentIdSelection"><li></li></a>
 				<a onclick="currentSelected(1)" class="currentIdSelection"><li>Peter : Stundenplan</li></a>
 				<a onclick="currentSelected(2)" class="currentIdSelection"><li>Aaron : Stundenplan</li></a>
 				<a onclick="currentSelected(3)" class="currentIdSelection"><li>Quirin : Stundenplan</li></a>

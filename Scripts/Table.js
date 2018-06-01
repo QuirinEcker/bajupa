@@ -1,3 +1,12 @@
+function giveNumberOfClass(number) {
+	sessionStorage.numberOfClass = number;
+}
+
+function checkWebStorage() {
+	currentSelected(sessionStorage.numberOfClass);
+	sessionStorage.clear();
+}
+
 function currentSelected(numberofClass) {
 	let button = document.getElementsByClassName("currentIdSelection");
 	
@@ -8,17 +17,17 @@ function currentSelected(numberofClass) {
 		button[2].style.color = "white";
 		button[3].style.color = "white";
 		displayCalenderTable()
-	} else if(numberofClass === 1) {
+	} else if(numberofClass === 1 || numberofClass === "1") {
 		button[0].style.color = "white";
 		button[2].style.color = "white";
 		button[3].style.color = "white";
 		displayPeterTable();
-	} else if(numberofClass === 2) {
+	} else if(numberofClass === 2 || numberofClass === "2") {
 		button[0].style.color = "white";
 		button[1].style.color = "white";
 		button[3].style.color = "white";
 		displayAaronTable();
-	} else if(numberofClass === 3) {
+	} else if(numberofClass === 3 || numberofClass === "3") {
 		button[0].style.color = "white";
 		button[1].style.color = "white";
 		button[2].style.color = "white";
