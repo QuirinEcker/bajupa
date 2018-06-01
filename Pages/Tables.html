@@ -15,29 +15,28 @@
 		<script type="text/javascript" src="../Scripts/hideSidebar.js"></script>
 		<script type="text/javascript" src="../Scripts/Start.js"></script>
 
-		<div class="MainMenu">
-			
+		<div class="MainMenu">	
 			<ul class="menu">
-				<a href="../Index.html"><li id="logo"></li></a>
-				<a href="Pages/Tables.html">
+				<a href="Index.html"><li id="logo"></li></a>
+				<a href="Tables.html">
 					<li id="tables" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
 						<div onMouseOver="dropDownProjectsDisplay(0)" onMouseOut="dropDownProjectsNone(0)" class="hoverUnderline"></div>
 						<span>Tables</span>
 					</li>
 				</a>
-				<a href="">
+				<a href="Projects.html">
 					<li id="projects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
 						<div onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)" class="hoverUnderline"></div>
 						<span>Projects</span>
 					</li>
 				</a>
-				<a href="">
+				<a href="about.html">
 					<li id="About" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
 						<div onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)" class="hoverUnderline"></div>
 						<span>About</span>
 					</li>
 				</a>
-				<a href="">
+				<a href="links.html">
 					<li id="Links" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
 						<div onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)" class="hoverUnderline"></div>
 						<span>Links</span>
@@ -46,15 +45,14 @@
 			</ul>
 
 			<ul id="DropDownTable" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
-				<a class="nodec" href="Tables.html"><li class="tables">Peter</li></a>
-				<a class="nodec" href="Tables.html"><li class="tables">Aaron</li></a>
-				<a class="nodec" href="Tables.html"><li class="tables">Quirin</li></a>
+				<a class="nodec" href="Tables.html" onclick="currentSelected(1)"><li class="tables">Peter</li></a>
+				<a class="nodec" href="Tables.html" onclick="currentSelected(2)"><li class="tables">Aaron</li></a>
+				<a class="nodec" href="Tables.html" onclick="currentSelected(3)"><li class="tables">Quirin</li></a>
 			</ul>
 
 			<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
-				<a class="nodec" href="#"><li class="tables">1</li></a>
-				<a class="nodec" href="#"><li class="tables">2</li></a>
-				<a class="nodec" href="#"><li class="tables">3</li></a>
+				<a class="nodec" href="https://github.com/login"><li class="tables">Github Login</li></a>
+				<a class="nodec" href="BGWLibrary.html"><li class="tables">BGW</li></a>
 			</ul>
 
 			<ul id="DropDownAbout" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
@@ -64,10 +62,9 @@
 			</ul>
 
 			<ul id="DropDownLinks" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
-				<a class="nodec" href="#"><li class="tables">1</li></a>
-				<a class="nodec" href="#"><li class="tables">2</li></a>
-				<a class="nodec" href="#"><li class="tables">3</li></a>
-				<a class="nodec" href="#"><li class="tables">3</li></a>
+				<a class="nodec" href="links.html"><li class="tables">1</li></a>
+				<a class="nodec" href="links.html"><li class="tables">2</li></a>
+				<a class="nodec" href="links.html"><li class="tables">3</li></a>
 			</ul>
 		</div>
 
@@ -178,6 +175,75 @@
 				</table>
 			</div>
 			<div id="PeterStundenPlan" class="timetable">
+				<table class="stundenplan">
+					<tr>
+						<th>Montag</th>
+						<th>Dienstag</th>
+						<th>Mittwoch</th>
+						<th>Donnerstag</th>
+						<th>Freitag</th>
+					</tr>
+					<tr>
+						<td rowspan="2">Webtechnik</td>
+						<td>Systemplanung</td>
+						<td class="Nothing"></td>
+						<td rowspan="2">Programmieren</td>
+						<td rowspan="2">Programmieren</td>
+					</tr>
+					<tr>
+						<td rowspan="2">Systemplanung</td>
+						<td class="Nothing"></td>
+					</tr>
+					<tr>
+						<td>Systemplanung</td>
+						<td class="Nothing"></td>
+						<td rowspan="2">Systemplanung</td>
+						<td rowspan="2">Prozedurales Programmieren</td>
+					</tr>
+					<tr>
+						<td class="Nothing"></td>
+						<td rowspan="2">Systemplanung</td>
+						<td class="Nothing"></td>
+					</tr>
+					<tr>
+						<td>Technische Informatik</td>
+						<td class="Nothing"></td>
+						<td rowspan="2">Prozedurales Programmieren</td>
+						<td rowspan="2">Prozedurales Programmieren</td>
+					</tr>
+					<tr>
+						<td class="Nothing"></td>
+						<td>Systemplanung</td>
+						<td class="Nothing"></td>
+					</tr>
+					<tr>
+						<td>Technische Informatik</td>
+						<td>Programmieren</td>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+					</tr>
+					<tr>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+						<td>Programmieren</td>
+						<td class="Nothing"></td>
+					</tr>
+					<tr>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+						<td rowspan="2">Advanced Algorithmus</td>
+						<td class="Nothing"></td>
+					</tr>
+					<tr>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+						<td class="Nothing"></td>
+					</tr>
+				</table>
 			</div>
 			<div id="QuirinStundenPlan" class="timetable">
 				<table class="stundenplan">

@@ -12,6 +12,13 @@
 	width: 100%;
 }
 
+.placeholder3 {
+	background-image: url(../images/index.png), url(../images/index.png), url(../images/derserIMG.jpg);
+	background-repeat: no-repeat;
+	background-position: 30%, 70%;
+	background-size: auto, auto, cover;
+}
+
 .placeholderContent {
 	width: 50%;
 	margin: auto;
@@ -53,6 +60,26 @@
 	left: 25%;
 	height: 10%;
 	top: 25%;
+}
+
+.button {
+	line-height: 100px;
+	background-color: #23292E;
+	height: 100px;
+	margin: 0 auto;
+	width: 340px;
+}
+
+.button h1 {
+	position: absolute;
+	padding-left: 60px;
+}
+
+#hoveranimation {
+	background-color: #00BA3A;
+	position: absolute;
+	height: 100px;
+	transition: width 0.5s;
 }
 
 /*.homeScreenMenu {

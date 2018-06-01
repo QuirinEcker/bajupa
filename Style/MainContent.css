@@ -3,7 +3,6 @@
 	position: absolute;
 	top: 10%; left: 0;
 	margin: 0; padding: 0;
-	background-image: url(../images/Background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -20,17 +19,16 @@
 	margin-top: 50px;
 	height: 400px;
 	background-color: white;
-	opacity: 0.8;
 }
 
 .timetable {
+	padding: 50px;
 	z-index: 0;
 	width: 55%;
 	margin-left:  35%;
 	margin-top: 50px;
-	height: 600px;
-	background-color: black;
-	opacity: 0.8;
+	height: 650px;
+	background-color: #342D2D;
 	transition: all 1s;
 }
 

@@ -1,4 +1,5 @@
 .stundenplan {
+	width: 55%;
 	background: black;
 	height: 600px;
 	border: 1px solid #39342b;
@@ -12,7 +13,7 @@ th {
   font: normal 15px "Helvetica Neue" , Times serif;
   color: white;
   padding: 10px;
-  width: 150px;
+  width: 125px;
   height: 25px;
 }
 

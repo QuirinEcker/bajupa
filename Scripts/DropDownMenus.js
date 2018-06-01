@@ -19,7 +19,7 @@ function dropDownProjectsDisplay(number) {
 	let hover = document.getElementsByClassName("hoverUnderline");
 	
 	hover[number].style.transform = "scale(1, 1)";
-	content.style.height = "150px";
+	content.style.height = "100px";
 }
 
 function dropDownProjectsNone(number) {
