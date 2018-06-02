@@ -119,10 +119,10 @@
 	color: black;
 	background-color: white;
 	margin: 0 auto;
-	border-radius: 10px;
+	border-radius: 5px;
 	width: 50%;
 	height: 50px;
-	transition: all 0.5s;
+	transition: all 0.2s;
 }
 
 .button:hover {
