@@ -35,7 +35,6 @@ function dropDownAboutDisplay(number) {
 	let hover = document.getElementsByClassName("hoverUnderline");
 	
 	hover[number].style.transform = "scale(1, 1)";
-	content.style.height = "150px";
 }
 
 function dropDownAboutNone(number) {
@@ -43,7 +42,6 @@ function dropDownAboutNone(number) {
 	let hover = document.getElementsByClassName("hoverUnderline");
 	
 	hover[number].style.transform = "scale(0, 1)";
-	content.style.height = "0px";
 }
 
 function dropDownLinksDisplay(number){

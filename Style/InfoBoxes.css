@@ -1,4 +1,5 @@
 #aboutContent {
+	overflow-y: scroll;
 }
 
 #InfoQuirin {
