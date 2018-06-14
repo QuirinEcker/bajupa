@@ -124,13 +124,12 @@
 	background-size: 10%;
 	background-repeat: no-repeat;
 	background-position: left;
-	position: absolute;
 	font-size: 200%;
 	width: 50%;
 	text-align: center;
-	left: 25%;
-	height: 10%;
-	top: 25%;
+	height: 100px;
+	margin-top: 200px;
+	margin-left: 25%;
 }
 
 .button {
@@ -151,8 +150,9 @@
 }
 
 .button h1 {
-	position: absolute;
-	padding-left: 60px;
+	text-align: center;
+/*	position: absolute;
+	padding-left: 60px;*/
 }
 
 .schriftCenter h1 {

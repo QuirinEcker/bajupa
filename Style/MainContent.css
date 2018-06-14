@@ -48,3 +48,20 @@
 #CalenderStundenPlan {
 	display: none;
 }
+
+.discord {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.formatLogo {
+	border-radius: 10px 10px;
+	position: relative;
+	left: 250px;
+	width: 500px;
+	margin: 10px;
+	padding-bottom: 50px;
+}

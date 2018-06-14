@@ -1,95 +1,95 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Bajupa</title>
-<link rel="stylesheet" href="../Style/MainMenu.css">
-<link rel="stylesheet" href="../Style/SideBar.css">
-<link rel="stylesheet" href="../Style/MainContent.css">
-<link rel="stylesheet" href="../Style/contentOnly.css">
-<link rel="stylesheet" href="../Style/TableQuirin.css">
-<link rel="stylesheet" href="../Style/Links.css">
-</head>
-<body>
-<script type="text/javascript" src="../Scripts/DropDownMenus.js"></script>
-<script type="text/javascript" src="../Scripts/Table.js"></script>
-<script type="text/javascript" src="../Scripts/menuHover.js"></script>
-<script type="text/javascript" src="../Scripts/Links.js"></script>
+	<head>
+		<meta charset="utf-8">
+		<title>Bajupa</title>
+		<link rel="stylesheet" href="../Style/MainMenu.css">
+		<link rel="stylesheet" href="../Style/SideBar.css">
+		<link rel="stylesheet" href="../Style/MainContent.css">
+		<link rel="stylesheet" href="../Style/contentOnly.css">
+		<link rel="stylesheet" href="../Style/TableQuirin.css">
+	</head>
+	
+	<body>
+		<script type="text/javascript" src="../Scripts/DropDownMenus.js"></script>
+		<script type="text/javascript" src="../Scripts/Table.js"></script>
+		<script type="text/javascript" src="../Scripts/menuHover.js"></script>
+		<script type="text/javascript" src="../Scripts/shortAnimations.js"></script>
+		
+		<div class="MainMenu">	
+			<ul class="menu">
+				<a href="Index.html"><li id="logo"></li></a>
+				<a href="Tables.html">
+					<li id="tables" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
+						<div onMouseOver="dropDownProjectsDisplay(0)" onMouseOut="dropDownProjectsNone(0)" class="hoverUnderline"></div>
+						<span>Tables</span>
+					</li>
+				</a>
+				<a href="Projects.html">
+					<li id="projects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
+						<div onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)" class="hoverUnderline"></div>
+						<span>Projects</span>
+					</li>
+				</a>
+				<a href="about.html">
+					<li id="About" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
+						<div onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)" class="hoverUnderline"></div>
+						<span>About</span>
+					</li>
+				</a>
+				<a href="links.html">
+					<li id="Links" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
+						<div onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)" class="hoverUnderline"></div>
+						<span>Links</span>
+					</li>
+				</a>
+			</ul>
 
-<div class="MainMenu">
-<ul class="menu">
-<a href="../Index.html"><li id="logo"></li></a>
-<a href="Tables.html">
-<li id="tables" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
-<div onMouseOver="dropDownProjectsDisplay(0)" onMouseOut="dropDownProjectsNone(0)" class="hoverUnderline"></div>
-<span>Tables</span>
-</li>
-</a>
-<a href="Projects.html">
-<li id="projects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
-<div onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)" class="hoverUnderline"></div>
-<span>Projects</span>
-</li>
-</a>
-<a href="">
-<li id="About" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
-<div onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)" class="hoverUnderline"></div>
-<span>About</span>
-</li>
-</a>
-<a href="">
-<li id="Links" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
-<div onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)" class="hoverUnderline"></div>
-<span>Links</span>
-</li>
-</a>
-</ul>
+			<ul id="DropDownTable" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(1)"><li class="tables">Peter</li></a>
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(2)"><li class="tables">Aaron</li></a>
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(3)"><li class="tables">Quirin</li></a>
+			</ul>
 
-<ul id="DropDownTable" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
-<a class="nodec" href="Pages/Tables.html" onclick="currentSelected(1)"><li class="tables">Peter</li></a>
-<a class="nodec" href="Pages/Tables.html" onclick="currentSelected(2)"><li class="tables">Aaron</li></a>
-<a class="nodec" href="Pages/Tables.html" onclick="currentSelected(3)"><li class="tables">Quirin</li></a>
-</ul>
+			<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
+				<a class="nodec" href="https://github.com/Bauepete"><li class="tables">Github : Peter Bauer</li></a>
+				<a class="nodec" href="BGWLibrary.html"><li class="tables">BGW : Aaron Ecker</li></a>
+				<a class="nodec" href="https://github.com/QuirinEcker"><li class="tables">Github : Quirin Ecker</li></a>
+			</ul>
+		</div>
 
-<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
-<a class="nodec" href="#"><li class="tables">1</li></a>
-<a class="nodec" href="#"><li class="tables">2</li></a>
-<a class="nodec" href="#"><li class="tables">3</li></a>
-</ul>
+		<div id="SideBar">
+			<ul id="SidebarContent">
+				<a onclick="currentSelected(0)" class="currentIdSelection"><li></li></a>
+				<a onclick="currentSelected(1)" class="currentIdSelection"><li>Discord</li></a>
+				<a onclick="currentSelected(2)" class="currentIdSelection"><li>Apple</li></a>
+				<a onclick="currentSelected(3)" class="currentIdSelection"><li>Logitech</li></a>
+			</ul>
+		</div>
 
-<ul id="DropDownAbout" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
-<a class="nodec" href="#"><li class="tables">1</li></a>
-<a class="nodec" href="#"><li class="tables">2</li></a>
-<a class="nodec" href="#"><li class="tables">3</li></a>
-</ul>
 
-<ul id="DropDownLinks" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
-<a class="nodec" href="#"><li class="tables">1</li></a>
-<a class="nodec" href="#"><li class="tables">2</li></a>
-<a class="nodec" href="#"><li class="tables">3</li></a>
-<a class="nodec" href="#"><li class="tables">3</li></a>
-</ul>
-</div>
-
-<div id="SideBar">
-  <ul id="SidebarContent">
-    <a onclick="currentSelected(0)" class="currentIdSelection"><li>Discord</li></a>
-    <a onclick="currentSelected(1)" class="currentIdSelection"><li>Github : Peter</li></a>
-    <a onclick="currentSelected(2)" class="currentIdSelection"><li>Github : Quirin</li></a>
-  </ul>
-  <div id="buttonHide" onMouseOver="showButton()" onmouseout="hideButton()"></div>
-  <div id="hideSidebar" onclick="hideSidebar()" onMouseOver="showButton()" onmouseout="hideButton()"></div>
-</div>
-<div id="MainContent">
-  <div id="Discord" class="projectsBackground">
-    <iframe src="https://discordapp.com/widget?id=388433193638035457&theme=dark" width="550" height="700" allowtransparency="true" frameborder="0"></iframe>
-  </div>
-  <div id="GithubPeter" class="projectsBackground">
-    <h1>Github Peter</h1>
-  </div>
-  <div id="GithubQuirin" class="projectsBackground">
-    <h1>Github Quirin</h1>
-  </div>
-</div>
-</body>
+		<div id="MainContent">
+			<div class="timetable" id="PeterStundenPlan">
+				<div class="discord">
+					<iframe src="https://discordapp.com/widget?id=388433193638035457&theme=dark" width="1000" height="600" allowtransparency="true" frameborder="0">
+					</iframe>
+				</div>
+			</div>
+			
+			<div class="timetable" id="QuirinStundenPlan">
+				<div class="discord">
+					<div><img class="formatLogo" src="../images/LogitechLogo.png" alt=""></div>
+					<a href="https://www.logitech.com/en-gb"><div class="button"><h1> Logitech.com </h1></div></a>
+				</div>
+			</div>
+			<div class="timetable" id="AaronStundenPlan">
+				<div class="discord">
+					<img class="formatLogo" src="../images/AppleLogo.jpg" alt="">
+					<a href="https://www.apple.com/"><div class="button"><h1> Apple.com </h1></div></a>
+				</div>
+			</div>
+			<div class="timetable" id="CalenderStundenPlan">
+			</div>
+		</div>
+	</body>
 </html>
