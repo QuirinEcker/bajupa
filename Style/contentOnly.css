@@ -38,6 +38,10 @@
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: 25%, 75%, center;
 	border-bottom: 30px solid black;
+	
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 }
 
 .placeholder5 {
@@ -45,6 +49,10 @@
 	background-color: white;
 	border-top: 50px solid black;
 	height: 800px; width: 100%;
+	
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 }
 
 .placeholder5 .ProjectPart {
