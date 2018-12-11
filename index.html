@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bajupa</title>
+		<link rel="stylesheet" href="../Style/MainMenu.css">
+		<link rel="stylesheet" href="../Style/MainContent.css">
+		<link rel="stylesheet" href="../Style/contentOnly.css">
+		<link rel="stylesheet" href="../Style/TableQuirin.css">
+	</head>
+	<body>
+		<script type="text/javascript" src="../Scripts/DropDownMenus.js"></script>
+		<script type="text/javascript" src="../Scripts/Table.js"></script>
+		<script type="text/javascript" src="../Scripts/menuHover.js"></script>
+		
+		<div class="MainMenu">	
+			<ul class="menu">
+				<a href="Index.html"><li id="logo"></li></a>
+				<a href="Tables.html">
+					<li id="tables" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
+						<div onMouseOver="dropDownProjectsDisplay(0)" onMouseOut="dropDownProjectsNone(0)" class="hoverUnderline"></div>
+						<span>Tables</span>
+					</li>
+				</a>
+				<a href="Projects.html">
+					<li id="projects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
+						<div onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)" class="hoverUnderline"></div>
+						<span>Projects</span>
+					</li>
+				</a>
+				<a href="about.html">
+					<li id="About" onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)">
+						<div onMouseOver="dropDownAboutDisplay(2)" onMouseOut="dropDownAboutNone(2)" class="hoverUnderline"></div>
+						<span>About</span>
+					</li>
+				</a>
+				<a href="links.html">
+					<li id="Links" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
+						<div onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)" class="hoverUnderline"></div>
+						<span>Links</span>
+					</li>
+				</a>
+			</ul>
+
+			<ul id="DropDownTable" onMouseOver="dropDownTableDisplay(0)" onMouseOut="dropDownTableNone(0)">
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(1)"><li class="tables">Peter</li></a>
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(2)"><li class="tables">Aaron</li></a>
+				<a class="nodec" href="Tables.html" onclick="giveNumberOfClass(3)"><li class="tables">Quirin</li></a>
+			</ul>
+
+			<ul id="DropDownProjects" onMouseOver="dropDownProjectsDisplay(1)" onMouseOut="dropDownProjectsNone(1)">
+				<a class="nodec" href="https://github.com/Bauepete"><li class="tables">Github : Peter Bauer</li></a>
+				<a class="nodec" href="BGWLibrary.html"><li class="tables">BGW : Aaron Ecker</li></a>
+				<a class="nodec" href="https://github.com/QuirinEcker"><li class="tables">Github : Quirin Ecker</li></a>
+			</ul>
+
+			<ul id="DropDownLinks" onMouseOver="dropDownLinksDisplay(3)" onMouseOut="dropDownLinksNone(3)">
+				<a class="nodec" href="links.html"><li class="tables">1</li></a>
+				<a class="nodec" href="links.html"><li class="tables">2</li></a>
+				<a class="nodec" href="links.html"><li class="tables">3</li></a>
+			</ul>
+		</div>
+		
+		<div id="MainContent">
+			<div class="contentOnly">
+				<form action="http://www.google.com/search" method="get">
+					<input name="q" id="suche" type="text" placeholder="search">
+				</form>
+			</div>
+			
+			<div class="placeholder">
+				<div class="placeholderContent">
+					<h1>What's New Here</h1>
+					<ul>
+						<li>SearchBar in the Homepage</li>
+						<li>Black Layout</li>
+						<li>more optimizing on percantage layout</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="placeholder1">
+				<div class="placeholderContent1">
+					<h1>Sections</h1>
+					<div class="homeScreenMenu" id="homeScreenTables">Tables</div>
+					<div class="homeScreenMenu" id="homeScreenProjects">Projects</div>
+					<div class="homeScreenMenu" id="homeScreenAbout">About</div>
+					<div class="homeScreenMenu" id="homeScreenLinks">Links</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
